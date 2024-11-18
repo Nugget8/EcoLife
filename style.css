@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Segoe UI;
+    src: url(./SegoeUIVF.ttf);
+}
+
+body {
+    background-color: #f8fff0;
+    font-family: Segoe UI;
+    margin: 0;
+    user-select: none;
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    padding: 4px 16px;
+    background-color: #bfb;
+}
+
+.bodyTitle {
+    font-size: 20px;
+    font-weight: 800;
+    color: #4a4;
+}
+
+.titleLife {
+    color: #c40;
+}
+
+.activeAction {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 16px;
+}
+
+.activeActionContent {
+    flex-grow: 1;
+}
+
+.activeActionTitle {
+    font-weight: 600;
+}
+
+.activeActionFinish {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 16px;
+    border-radius: 8px;
+    font-weight: 800;
+    color: #171;
+    background-color: #bfb;
+}
+
+.activeActionFinish:active {
+    background-color: #8f8;
+}
+
+#newAction {
+    position: fixed;
+    bottom: 48px;
+    right: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 64px;
+    padding-bottom: 16px;
+    width: 48px;
+    height: 48px;
+    font-weight: 600;
+    color: #fff;
+    border-radius: 8px;
+    background-color: #06f;
+}
+
+#actions {
+    background-color: #fff;
+    margin: 16px;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px #0004;
+    overflow: hidden;
+}
+
+.actionsTitle {
+    color: #181;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 16px;
+    border-bottom: 1px solid #ddd;
+}
+
+.action {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+    font-weight: 600;
+}
+
+.pointsInfo {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.closeAlign {
+    display: flex;
+    justify-content: end;
+}
+
+.close {
+    border: 1px solid #000;
+    padding: 4px 16px;
+    border-radius: 8px;
+    margin: 16px;
+}
+
+.action:active, .close:active {
+    background-color: #06f1;
+}

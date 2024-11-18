@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EcoLife</title>
+</head>
+
+<body>
+    <div class="topBar">
+        <div class="bodyTitle">Eco<span class="titleLife">Life</span></div>
+        <div id="pointsCounter">0 puncte</div>
+        <div id="rank">Novice</div>
+    </div>
+
+    <div id="activeActions"></div>
+
+    <div id="newAction">+</div>
+
+    <div id="actions" style="display: none;">
+        <div class="actionsTitle">Alege o acțiune ecologică</div>
+        <div class="action" id="plastic">Reciclează plastic <span class="pointsInfo">(1 punct per gram de plastic reciclat)</span></div>
+        <div class="action" id="energy">Redu consumul de energie <span class="pointsInfo">(1 punct per watt-oră economisit)</span></div>
+        <div class="action" id="water">Redu consumul de apă <span class="pointsInfo">(8 puncte per litru de apă economisit)</span></div>
+        <div class="action" id="sapling">Plantează un puiet <span class="pointsInfo">(3500 de puncte per puiet plantat)</span></div>
+        <div class="closeAlign">
+            <div class="close" id="closeActions">Închide</div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
